@@ -1,5 +1,5 @@
 "use client";
-import { authClient } from "@/lib/auth-client";
+import { authClient } from "../lib/auth";
 import { useRouter } from "next/navigation";
 import { useEffectOnce } from "react-use";
 
